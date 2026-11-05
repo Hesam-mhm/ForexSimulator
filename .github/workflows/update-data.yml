@@ -1,0 +1,13 @@
+name: Refresh and deploy market data
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  refresh-and-deploy:
+    uses: ./.github/workflows/deploy.yml

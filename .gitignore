@@ -1,0 +1,13 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+.claude/
+Buy sell news.txt
+
+# Historical market data and generated static payloads (download locally / in CI)
+/data/
+/app/public/data/
